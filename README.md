@@ -7,9 +7,13 @@ In thermodynamics, entropy can be described as the amount of "disorder" in a sys
 ### Information Entropy
 While the concept of molecular disorder helps to explain entropy in thermodynamics, it does not generalize well to a statistical understanding of entropy. Instead of "disorder", let's recall the thermodynamics definition of entropy as the weighted sum of *ln(p<sub>i</sub>)* for all the microstates *i* with probabilities *p<sub>i</sub>* in an ensemble:
 
+![entropy_thermodynamics](entropy_thermodynamics.svg)
+
 Here, entropy expresses the number of microstates for a given macrostate in energy units. The number of microstates (particles) scales exponentially with the energy of the system, hence the logarithm.
 
 Turning to the formal definition of information entropy, we are presented with essentially the same formula, which, arguably, can be considered a more general form of the thermodynamics version (ignoring the Boltzmann constant):
+
+![entropy_information](entropy_information.svg)
 
 Common numbers for b are 2 (bits) or Euler's number *e* (thermodynamics).
 
