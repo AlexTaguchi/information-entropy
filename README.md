@@ -29,4 +29,4 @@ Common numbers for b are 2 (bits) or Euler's number *e* (thermodynamics).
   
   ![entropy_information](entropy_information.svg)
   
-  When all events have the same probability, the information content is equal to the information entropy.
+  Here's where it all ties back together with the thermodynamics definition of entropy. Consider a family of peptides of the same length, where the amino acids expected to appear at each position are known from a sequence alignment analysis. If only alanine ever appears at position 1, no new information can be communicated about its state, and therefore both the information content of any message, as well as the entropy, is zero. On the other extreme, if all amino acids are equiprobable at this position, the information entropy is maximum. Analogously, the thermodynamic entropy is maximum when all possible microstates are equiprobable in the macrostate (the end of the universe). The greater the uncertainty of the system, the greater the information content expected to be obtained from any message/measurement.
