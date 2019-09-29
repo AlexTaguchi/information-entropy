@@ -34,3 +34,8 @@ Common numbers for b are 2 (bits) or Euler's number *e* (thermodynamics).
   
 - #### KL Divergence
   The cross entropy is always greater than or equal to the entropy of the true distribution, and this difference is the Kullback–Leibler divergence. Specifically, it measures the uncertainty introduced from trying to communicate distribution *q* using a coding scheme optimized for the true distribution *p*.
+
+- #### Mutual Information
+  The information shared between two variables is mutual information. If two variables are completely independent of each other, their shared information is zero, otherwise it is positive. Mutual information is the joint entropy (entropy of the combined variables) minus the cross-entropies of the individual variables using the joint entropy as the true distribution:
+  
+  ![mutual_information](mutual_information.svg)
