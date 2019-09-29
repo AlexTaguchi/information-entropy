@@ -11,7 +11,7 @@ While the concept of molecular disorder helps to explain entropy to a chemist, i
 
 In the case of equiprobable microstates, this formula collapses into the famous and much more simple form:
 
-![entropy_thermodynamics](entropy_thermodynamics.svg)
+![entropy_boltzmann](entropy_boltzmann.svg)
 
 Here, *k*<sub>B</sub> is the Boltzmann constant, and Ω is the number of microstates. What we can learn from this formula is that the number of microstates (conformations) scales exponentially with the energy of the system.
 
