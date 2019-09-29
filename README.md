@@ -26,3 +26,11 @@ Common numbers for b are 2 (bits) or Euler's number *e* (thermodynamics).
  
 - #### Information Entropy
   Information entropy is the *expected* information conveyed across all states, thus leading to the general formula -Σ*p<sub>i</sub>log(p<sub>i</sub>)*. Here's where it all ties back together with the thermodynamics understanding of entropy. Consider a family of peptides of the same length, where the amino acids expected to appear at each position are known from a sequence alignment analysis. If only alanine ever appears at position 1, no new information can be communicated about its state, and therefore the information content of any message, the "disorder", as well as the entropy at this position, is zero. On the other extreme, if all amino acids are equiprobable at this position, the information entropy is maximum (as is the disorder). On a larger scale, the thermodynamic entropy is maximum when all possible states of the universe are equiprobable ("the end of the universe" where there is no longer any order to the universe). Both the information and thermodynamics versions of entropy quantify the uncertainty of the state of the system.
+
+- #### Cross Entropy
+  What if we want to compare the similarity/divergence between two probability distributions? Cross entropy is the expected number of bits required to convey a message about estimated probability distribution *q* given a coding scheme optimized for the true distribution *p*. Formulaically, this is calculated as the sum of all *ln(q<sub>i</sub>)* weighted by the true distribution *p<sub>i</sub>*:
+  
+  ![cross_entropy](cross_entropy.svg)
+  
+- #### KL Divergence
+  The cross entropy is always greater than or equal to the entropy of the true distribution, and this difference is the Kullback–Leibler divergence. Specifically, it measures the uncertainty introduced from trying to communicate distribution *q* using a coding scheme optimized for the true distribution *p*.
